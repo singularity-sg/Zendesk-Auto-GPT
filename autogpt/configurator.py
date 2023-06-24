@@ -14,8 +14,8 @@ from autogpt.memory.vector import get_supported_memory_backends
 if TYPE_CHECKING:
     from autogpt.config import Config
 
-GPT_4_MODEL = "gpt-4"
-GPT_3_MODEL = "gpt-3.5-turbo"
+GPT_4_MODEL = "gpt-4-32k"
+GPT_3_MODEL = "gpt-3.5-turbo-16k"
 
 
 def create_config(

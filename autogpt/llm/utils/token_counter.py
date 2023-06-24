@@ -36,6 +36,9 @@ def count_message_tokens(
     elif model == "gpt-4":
         # !Note: gpt-4 may change over time. Returning num tokens assuming gpt-4-0314.")
         return count_message_tokens(messages, model="gpt-4-0314")
+    elif model == "gpt-4-32k":
+        # !Note: gpt-4 may change over time. Returning num tokens assuming gpt-4-0314.")
+        return count_message_tokens(messages, model="gpt-4-0314")
     elif model == "gpt-3.5-turbo-0301":
         tokens_per_message = (
             4  # every message follows <|start|>{role/name}\n{content}<|end|>\n
