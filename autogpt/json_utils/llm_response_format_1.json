@@ -26,6 +26,6 @@
             "additionalProperties": false
         }
     },
-    "required": ["thoughts", "command"],
+    "required": ["thoughts"],
     "additionalProperties": false
 }

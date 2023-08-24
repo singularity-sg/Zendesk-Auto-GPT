@@ -52,7 +52,6 @@ sunshine-conversations-client
 websockets
 requests
 PyJWT
-langchain[llms]
 
 # Items below this point will not be included in the Docker Image
 
