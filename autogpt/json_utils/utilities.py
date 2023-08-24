@@ -52,7 +52,6 @@ def validate_json(json_object: object, schema_name: str) -> dict | None:
             for error in errors:
                 logger.error(f"Error: {error.message}")
 
-        return {"errors": [{"error": error.message} for error in errors], "command": None}
     else:
         logger.debug("The JSON object is valid.")
 
