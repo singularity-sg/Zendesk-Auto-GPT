@@ -70,6 +70,7 @@ sunshine-conversations-client
 websockets
 requests
 PyJWT
+jsonpickle
 
 # Items below this point will not be included in the Docker Image
 
